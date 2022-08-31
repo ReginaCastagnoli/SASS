@@ -1,0 +1,45 @@
+//HEADER
+
+.header {
+    nav {
+        background-color: #bcb8b1;
+
+        a {
+            color: #463f3a;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+
+            &:hover {
+                color: #f4f3ee;
+                font-weight: bolder;
+                font-size: 25px;
+            }
+        }
+    }
+
+
+}
+
+//FOOTER
+
+.footer {
+    background-color: #bcb8b1;
+    min-height: 15vh;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            list-style: none;
+
+            a {
+                img:hover {
+                    height: 120px;
+                }
+            }
+        }
+    }
+}

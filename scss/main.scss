@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import"./secciones/headeryFooter";
+@import"./secciones/tipografia";
+@import"./secciones/mainTodos";
+
+@import"./pages/mainIndex";
+@import"./pages/productos";
+@import"./pages/galeria";
+@import"./pages/comoComprar";
+@import"./pages/contacto";
+

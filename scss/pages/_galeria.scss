@@ -1,0 +1,14 @@
+main {
+    .img-galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+            margin: 5px;
+        }
+    }
+    .video{
+        width: 100%;
+    }
+}

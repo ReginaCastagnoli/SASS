@@ -1,0 +1,33 @@
+//TODOS LOS H1
+
+h1 {
+    color: #463f3a;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+
+    ol {
+        li {
+            a {
+                text-decoration: none;
+                color: #463f3a;
+
+                &:hover {
+                    font-weight: bolder;
+                    color: #463f3a;
+                }
+            }
+        }
+    }
+}
+
+//TODOS LOS H2
+
+h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: #8a817c;
+    text-align: center;
+    margin: 40PX;
+    padding: 10px;
+}
